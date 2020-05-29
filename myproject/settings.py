@@ -23,7 +23,7 @@ print("---")
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','%_^_l1fz#p_c9tvh)$6uao@dm6s%aj3koj=4o3(xrzk6g2twuj'
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','%_^_l1fz#p_c9tvh)$6uao@dm6s%aj3koj=4o3(xrzk6g2twuj')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
