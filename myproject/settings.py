@@ -128,4 +128,4 @@ STATIC_URL = '/static/'
 STATAICFILES_DIRS = (
     os.path.join(BASE_DIR, 'likelion', 'static'),
 )
-STATIC_ROOT = "/staticfiles/" #static을 모을 때 사용
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') #static을 모을 때 사용
